@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*font*/
+.lusitana-regular {
+    font-family: "Lusitana", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+.lusitana-bold {
+    font-family: "Lusitana", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+/*////////////////////////////////*/  
+
+body{
+    background-image: url("https://images.pexels.com/photos/1267320/pexels-photo-1267320.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(255, 255, 255, 0.61);
+    background-blend-mode: overlay;
+}
+
+/*header*/
+#header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    min-height: 10vh;
+    border: 0.5px solid black;
+}
+
+#web-title{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    min-width: 25%;
+    margin: 0% 5%;
+    /*border: 1px solid black;*/
+}
+
+#web-title > #web-icon{
+    display: block;
+    font-size: 2.3em;
+}
+
+#web-title > #website-name{
+    font-size: 2em;
+}
+
+#navigation-item{
+    min-width: 40%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    /*border: 1px solid red;*/
+}
+
+#navigation-item > ul{
+    display: flex;
+    min-width: 100%;
+    justify-content: space-around;
+    list-style-type: none;
+    /*border: 1px solid black;*/
+}
+
+#navigation-item > ul .nav-link{
+    color: black;
+    font-size: 1.2em;
+    text-decoration-line: none;
+}
+/*///////////////////////*/
+
+/*//////////////////jumbotron///////////////////*/
