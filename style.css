@@ -39,7 +39,7 @@ body{
     background-image: url("https://images.pexels.com/photos/1267320/pexels-photo-1267320.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: rgba(255, 255, 255, 0.61);
+    background-color: rgba(234, 254, 255, 0.562);
     background-blend-mode: overlay;
 }
 
@@ -126,3 +126,22 @@ body{
     text-decoration: none;
 }
 /*///////////////////////*/
+
+/*image grid*/
+#image-grid-container{
+    background-color: whitesmoke;
+    margin: 15vh 0vh 0vh 0vh;
+    min-height: 60vh;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+#image-grid-container > .grid-item{
+    flex-basis: 33.33%;
+    flex-grow: 1;
+    height: 100%;
+    max-width: 33.33%;
+    object-fit: cover;
+    opacity: 0.8;
+}
