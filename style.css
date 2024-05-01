@@ -16,6 +16,23 @@
     font-weight: 700;
     font-style: normal;
 }
+
+.montserrat-regular{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/*<weight>: Use a value from 100 to 900*/
+
+.work-sans-regular {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
 /*////////////////////////////////*/  
 
 body{
@@ -32,7 +49,7 @@ body{
     flex-wrap: wrap;
     justify-content: space-between;
     min-height: 10vh;
-    border: 0.5px solid black;
+    /*border: 0.5px solid black;*/
 }
 
 #web-title{
@@ -77,3 +94,35 @@ body{
 /*///////////////////////*/
 
 /*//////////////////jumbotron///////////////////*/
+
+#jumbotron{
+    margin: 20vh 5% 5vh 5%;
+    padding: 5vh 0vh;
+}
+
+#jumbotron > #heading{
+    max-width: 60%;
+    font-size: 4.5em;
+    font-weight: 500;
+}
+
+#jumbotron > #subtext{
+    margin: 2% 0%;
+    padding: 0% 0% 2% 0%;
+    max-width: 70%;
+    font-size: 1.5em;
+    color: rgb(43, 43, 43);
+    line-height: 1.5;
+}
+
+#jumbotron > #jumbotron-button{
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 1.5% 1%;
+    font-size: 1em;
+    font-weight: 600;
+    text-decoration: none;
+}
+/*///////////////////////*/
