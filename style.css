@@ -36,15 +36,17 @@
 /*////////////////////////////////*/  
 
 body{
-    background-image: url("https://images.pexels.com/photos/1267320/pexels-photo-1267320.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: rgba(234, 254, 255, 0.562);
+    background-image: url("https://cdn.pixabay.com/photo/2017/02/15/10/39/salad-2068220_1280.jpg");
+    background-repeat:no-repeat;
+    background-size: contain;
+    background-color: rgba(234, 254, 255, 0.534);
     background-blend-mode: overlay;
 }
 
 /*header*/
 #header{
+    background-color: rgb(247, 247, 247);
+    padding: 4vh 0vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -111,8 +113,9 @@ body{
     padding: 0% 0% 2% 0%;
     max-width: 70%;
     font-size: 1.5em;
-    color: rgb(43, 43, 43);
+    color: rgb(20, 20, 20);
     line-height: 1.5;
+    font-weight: 500;
 }
 
 #jumbotron > #jumbotron-button{
@@ -131,7 +134,7 @@ body{
 #image-grid-container{
     background-color: whitesmoke;
     margin: 15vh 0vh 0vh 0vh;
-    min-height: 60vh;
+    min-height: 130vh;
     display: flex;
     flex-wrap: wrap;
 
@@ -140,8 +143,95 @@ body{
 #image-grid-container > .grid-item{
     flex-basis: 33.33%;
     flex-grow: 1;
-    height: 100%;
+    max-height: 100%;
     max-width: 33.33%;
     object-fit: cover;
-    opacity: 0.8;
+}
+
+/*///////////////////*/
+
+/*platform summary*/
+
+#platform-summary{
+    background-color: rgb(247, 247, 247);
+    padding: 20vh 5%;
+}
+
+#platform-summary > h2{
+    font-size: 2.5em;
+    max-width: 80%;
+    font-weight: 500;
+}
+
+/*///////////////////*/
+
+/*random image display*/
+#random-img-display{
+    border: 1px solid black;
+    min-height: 50vh;
+}
+
+#random-img-display > img{
+    display: block;
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+    object-position: 50% 95%;
+}
+/*/////////////////*/
+
+/*////card////////////*/
+#card{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-height: 80vh;
+}
+
+#card > .card-section{
+    flex-grow: 1;
+    flex-basis: 50%;
+}
+
+#card > #card-text{
+    max-width: 50%;
+    padding: 5vh 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+#card-text > #card-heading{
+    font-weight: 600;
+    font-size: 2.5em;
+}
+
+#card-text > #card-subtext{
+    font-size: 1.1em;
+    line-height: 1.2;
+}
+
+#card-text > #card-button{
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    padding: 16px 8px;
+    border-radius: 5px;
+    font-size: 1em;
+    font-weight: 500;
+}
+
+#card > #card-image{
+    max-width: 50%;
+    max-height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#card-image > img{
+    float: 1;
+    width: 100%;
+    height: 80vh;
+    object-fit: cover;
 }
