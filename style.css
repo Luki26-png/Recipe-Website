@@ -119,9 +119,8 @@ body{
 }
 
 #jumbotron > #jumbotron-button{
-    background-color: black;
+    background-color: #000000;
     color: white;
-    border: 1px solid black;
     border-radius: 10px;
     padding: 1.5% 1%;
     font-size: 1em;
@@ -217,7 +216,7 @@ body{
     text-decoration: none;
     background-color: black;
     padding: 16px 8px;
-    border-radius: 5px;
+    border-radius: 10px;
     font-size: 1em;
     font-weight: 500;
 }
