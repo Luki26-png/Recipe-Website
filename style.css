@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+/*color pallette 
+ #362417,
+ #92817a, 
+ #f1dabf, 
+ #fffbff, 
+ #04030f*/
+
 /*font*/
 .lusitana-regular {
     font-family: "Lusitana", serif;
@@ -45,7 +52,7 @@ body{
 
 /*header*/
 #header{
-    background-color: rgb(247, 247, 247);
+    background-color:#fffbff;
     padding: 4vh 0vh;
     display: flex;
     flex-wrap: wrap;
@@ -119,7 +126,7 @@ body{
 }
 
 #jumbotron > #jumbotron-button{
-    background-color: #000000;
+    background-color: #04030f;
     color: white;
     border-radius: 10px;
     padding: 1.5% 1%;
@@ -214,7 +221,7 @@ body{
 #card-text > #card-button{
     color: white;
     text-decoration: none;
-    background-color: black;
+    background-color: #04030f;
     padding: 16px 8px;
     border-radius: 10px;
     font-size: 1em;
@@ -234,3 +241,82 @@ body{
     height: 80vh;
     object-fit: cover;
 }
+
+/*///////////////*/
+
+/*news subsctiption*/
+#news-subscription{
+    background-color: #04030f;
+    color: #fffbff;
+    padding: 5vh 0vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#news-subscription > h3{
+    font-weight: 700;
+    padding: 0.5em;
+    font-size: 1.7em;
+}
+
+#news-subscription > label{
+    font-weight: 500;
+    padding: 0.5em;
+    font-size: 1.4em;
+}
+
+#news-subscription > form{
+    color: black;
+    min-width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+#news-subscription > form #subs-email{
+    border: none;
+    padding: 0.5em;
+    font-size: 1.2em;
+    min-width: 60%;
+}
+
+#news-subscription > form #subs-email:focus{
+    outline: none;
+}
+
+#news-subscription > form #subs-email-submit{
+    border: none;
+    color: white;
+    background-color:  rgba(234, 254, 255, 0.349);
+    font-weight: 600;
+    font-size: 1em;
+    min-width: 20%;
+}
+/*//////////////////*/
+
+/*/////footer///*/
+
+#footer{
+    padding: 5vh 5%;
+    background-color: #06051a;
+    color: #fffbff;
+}
+
+#footer > #footer-title{
+    font-weight: 600;
+    font-size: 2.3em;
+}
+
+#footer > #footer-subtext{
+    padding: 1em 0%;
+}
+
+#footer > #social-media{
+    padding: 0.5em 0em;
+}
+
+#yt-icon, #twitter-icon, #ig-icon{
+    width: 40px;
+    height: 40px;
+}
+/*//////////////////*/
