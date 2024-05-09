@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*font*/
+.lusitana-regular {
+    font-family: "Lusitana", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+.lusitana-bold {
+    font-family: "Lusitana", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.montserrat-regular{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  /*<weight>: Use a value from 100 to 900*/
+  
+.work-sans-regular {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+/*//////////////////////////*/
+body{
+    flex-direction: column;
+}
+
+#header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    min-height: 10vh;
+    background-color: #04030f;
+    color: #fffbff;
+}
+
+#web-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 25%;
+    margin: 0% 5%;
+}
+
+#web-title > #web-icon{
+    display: block;
+    font-size: 2.3em;
+}
+
+#web-title > #website-name{
+    font-size: 2em;
+}
+/*///////////top article/////////////*/
+#top-read-article{
+    min-height: 80vh;
+    padding: 5vh 0vh;
+    display: flex;
+    justify-content: center;
+}
+
+#top-read-article> section#most-read{
+    min-width: 60%;
+    padding: 2% 2%;
+    display: flex;
+    align-items: flex-end;
+    background-image: url("https://imageplaceholder.net/720x540");
+    object-fit: fill;
+}
+
+#top-read-article> section#most-read h3{
+    font-size: 1.8em;
+    max-width: 70%;
+}
+
+#top-read-article> section#recommended-article{
+    max-width: 30%;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+section#recommended-article > .recommended-card{
+   border-bottom: 1px solid #04030f; 
+   padding: 5% 0%;
+}
+section#recommended-article > .recommended-card h4{
+    font-size: 1.2em;  
+}
+
+section#recommended-article > .recommended-card small{
+    font-weight: 600;
+    color: #04030f;
+}
+
+/*/////////////////*/
+
+/*///////Latest Article///////////*/
+#latest-article-section{
+    padding: 5% 2%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#latest-article-section > #latest-article-title{
+    font-size: 2em;
+    border-bottom: 5px solid blue;
+    padding: 0.5% 0%;
+}
+
+#latest-article-container{
+    margin: 3% 0%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 2%;
+}
+
+#latest-article-container > .article-box{
+    display: flex;
+    flex-direction: column;
+}
+
+#latest-article-container > .article-box img{
+    width: 100%;
+    height: auto;
+}
+
+#latest-article-container > #latest-1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+/*/////////////////////////*/
