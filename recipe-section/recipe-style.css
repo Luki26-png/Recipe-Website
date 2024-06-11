@@ -16,6 +16,22 @@
     font-weight: 700;
     font-style: normal;
 }
+
+.montserrat-regular{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  /*<weight>: Use a value from 100 to 900*/
+  
+.work-sans-regular {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
 /*//////////////////////////*/
 body{
     flex-direction: column;
@@ -27,6 +43,7 @@ body{
     justify-content: center;
     min-height: 10vh;
     /*border: 0.5px solid black;*/
+    background-color: #04030f;
 }
 
 #web-title{
@@ -41,10 +58,12 @@ body{
 #web-title > #web-icon{
     display: block;
     font-size: 2.3em;
+    color: white;
 }
 
 #web-title > #website-name{
     font-size: 2em;
+    color: white;
 }
 
 #top-nav{
@@ -70,10 +89,12 @@ body{
     display: flex;
     justify-content: center;
     /*border: 1px solid black;*/
+    font-weight: 600;
 }
 
 #top-nav > ul .top-nav-item{
-    border: 1px solid blue;
+    /*border: 1px solid blue;*/
+    padding: 20px 0%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -83,7 +104,8 @@ body{
 }
 
 #top-nav > ul .top-nav-item:hover{
-    background-color: blue;
+    background-color: #09071b;
+    color: white;
 }
 
 #main-content{
@@ -95,7 +117,8 @@ body{
 
 #main-content > #side-bar {
     min-width: 12%;
-    padding: 2%;
+    padding: 3% 0%;
+    background-color: #f4feff;
 }
 
 #side-bar > ul{
@@ -103,14 +126,93 @@ body{
 }
 
 #side-bar > ul li{
-
+    /*border: 1px solid black;*/
 }
 
-#side-bar > ul .side-bar-item{
+li > .side-bar-item{
     text-decoration: none;
     color: black;
+    display: block;
+    padding: 10px 10%;
 }
 
-#main-content > #recipe-content{
-    padding: 2%;
+#side-bar > ul .side-bar-item:hover{
+    background-color: #09071b;
+    color: white;
 }
+/*/////////////////////////////////*/
+#main-content > #recipe-content{
+    padding: 1% 2%;
+}
+
+#recipe-content > #article-title{
+    font-size: 2.3em;
+    text-align: center;
+    padding: 2% 0%;
+}
+
+#recipe-content > #image-container{
+    display: flex;
+    justify-content: center;
+}
+
+#recipe-content > #food-overview{
+    padding: 20px 0%;
+    font-size: 18px;
+}
+
+#recipe-content > #ingredient{
+    padding: 10px 2%;
+    font-size: 18px;
+}
+
+#recipe-content > #ingredient h3{
+    padding: 15px 0%;
+}
+
+#recipe-content > #instructions{
+    padding: 10px 2%;
+    font-size: 18px;
+}
+
+#recipe-content > #instructions h3{
+    padding: 15px 0%;
+}
+
+#recipe-content > #how-to-serve{
+    padding: 10px 0%;
+    font-size: 18px;
+}
+
+#recipe-content > #video-tutorial h3{
+    padding: 10px 0%;
+    font-size: 2em;
+}
+
+/*///////*/
+/*/////footer///*/
+
+#footer{
+    padding: 5vh 5%;
+    background-color: #06051a;
+    color: #fffbff;
+}
+
+#footer > #footer-title{
+    font-weight: 600;
+    font-size: 2.3em;
+}
+
+#footer > #footer-subtext{
+    padding: 1em 0%;
+}
+
+#footer > #social-media{
+    padding: 0.5em 0em;
+}
+
+#yt-icon, #twitter-icon, #ig-icon{
+    width: 40px;
+    height: 40px;
+}
+/*//////////////////*/
