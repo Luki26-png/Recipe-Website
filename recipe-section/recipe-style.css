@@ -112,7 +112,7 @@ body{
     min-height: 85vh;
     border: 1px solid black;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 #main-content > #side-bar {
