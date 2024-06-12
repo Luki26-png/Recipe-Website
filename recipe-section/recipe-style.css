@@ -134,6 +134,7 @@ li > .side-bar-item{
     color: black;
     display: block;
     padding: 10px 10%;
+    border-bottom: 1px solid #09071b;
 }
 
 #side-bar > ul .side-bar-item:hover{
