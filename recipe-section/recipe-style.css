@@ -66,6 +66,11 @@ body{
     color: white;
 }
 
+#website-name a{
+    color: white;
+    text-decoration: none;
+}
+
 #top-nav{
     min-height: 5vh;
     display: flex;
