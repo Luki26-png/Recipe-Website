@@ -1,0 +1,164 @@
+body {
+    /* Typography Declaration */
+    color: #222222;
+    font-size: 1em;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  }
+
+
+/*header*/
+#header{
+  background-color:#fffbff;
+  padding: 4vh 0vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  min-height: 10vh;
+  /*border: 0.5px solid black;*/
+}
+
+#web-title{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  min-width: 25%;
+  margin: 0% 5%;
+  /*border: 1px solid black;*/
+}
+
+#web-title > #web-icon{
+  display: block;
+  font-size: 2.3em;
+}
+
+#web-title > #website-name{
+  font-size: 2.3em;
+}
+
+#navigation-item{
+  min-width: 40%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  /*border: 1px solid red;*/
+}
+
+#navigation-item > ul{
+  display: flex;
+  min-width: 100%;
+  justify-content: space-around;
+  list-style-type: none;
+  /*border: 1px solid black;*/
+}
+
+#navigation-item > ul .nav-link{
+  color: black;
+  font-size: 1.2em;
+  text-decoration-line: none;
+}
+/*****************/
+  .masthead-heading,
+  .masthead-intro,
+  .content-footer {
+    text-align: center;
+  }
+  
+  .masthead {
+    padding: 11em 0;
+    background-image: url("https://images.pexels.com/photos/25440112/pexels-photo-25440112/free-photo-of-sayuran-orang-hidangan-telur.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    border-top: solid 2em #b69760;
+    background-color: rgba(0, 0, 0, 0.301);
+    background-blend-mode: overlay;
+  }
+  
+  .masthead-intro {
+    /* Text Declarations */
+    margin-bottom: 0.1em;
+    font-family: "Gentium Book Basic," Georgia, serif;
+    font-size: 4em;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+  }
+  
+  .masthead-heading {
+    /*Layout Declarations */
+    margin-top: -0.2em;
+    /* Typography Declarations */
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: light;
+    font-size: 1.5em;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+  
+  /* Text Declarations for Sections */
+  
+  .introduction-section > p,
+  .content-footer > p {
+    font-weight: 300;
+    letter-spacing: 0.05em;
+  }
+  
+  /* Section Styling */
+  
+  .introduction-section{
+    max-width: 38em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+  }
+  /* Footer Styling */
+  
+  .fa-stack fa-lg {
+    display: inline-block;
+  }
+  
+  .footer-container > p {
+    color: white;
+  }
+  
+  .content-footer {
+    padding: 2em 0;
+    margin-top: 3em;
+    background: #2b3840;
+  }
+  
+  a {
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  a:link {
+    color: #b69760;
+  }
+  
+  a:visited {
+    color: #b69760;
+  }
+  
+  a:hover {
+    color: #b69760;
+  }
+  
+  @media only screen and (max-width: 571px) {
+    .masthead {
+      padding: 5em 0;
+    }
+    .masthead-intro {
+      font-size: 3em;
+    }
+    .masthead-heading {
+      font-size: 0.5em;
+    }
+    .container {
+      padding: 0 3em;
+    }
+    .footer-container {
+      padding: 0 3em;
+    }
+  }
